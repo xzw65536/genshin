@@ -1,4 +1,4 @@
-classes=8
+classes=3
 train=./yolo-genshin/data/train.txt
 valid=./yolo-genshin/data/val.txt
 names=./yolo-genshin/data/dnf.names
