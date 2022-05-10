@@ -259,7 +259,7 @@ def train():
 
             # Plot images with bounding boxes
             if ni < 1:
-                f = './yolo-genshin/train_batch%g.png' % i  # filename
+                f = './genshin/train_batch%g.png' % i  # filename
                 plot_images(imgs=imgs, targets=targets, paths=paths, fname=f)
                 if tb_writer:
                     tb_writer.add_image(f, cv2.imread(f)[:, :, ::-1], dataformats='HWC')
